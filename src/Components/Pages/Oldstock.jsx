@@ -1,10 +1,14 @@
-
+import FeaturedCollectionCard from "../homePagesReuseable/FeaturedCollectionCard";
 
 function Oldstock(){
     return(
 
         <>
-        <p>OLD STOCK</p>
+       <div className="flex justify-center space-x-8 mt-[5rem] mb-[5rem]">
+       <FeaturedCollectionCard></FeaturedCollectionCard>
+        <FeaturedCollectionCard></FeaturedCollectionCard>
+        <FeaturedCollectionCard></FeaturedCollectionCard>
+       </div>
         </>
     )
 }

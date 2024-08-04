@@ -37,7 +37,7 @@ function Nav() {
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-[12rem] h-[10rem] p-2 shadow"
             >
               <li>
-                <Link to={""}>homepage</Link>
+                <Link to={""}>Homepage</Link>
               </li>
               <li>
                 <Link to={"/Oldstock"}>Old Stock</Link>
@@ -59,7 +59,7 @@ function Nav() {
         <div className="md:hidden navbar-end text-2xl">GW</div>
 
        {/* icons */}
-        <div className="navbar-end text-2xl space-x-1 md:space-x-4 hidden md:block md:flex" >
+        <div className="navbar-end text-2xl space-x-1 md:space-x-4 hidden  md:flex" >
         <RiShoppingBag2Fill></RiShoppingBag2Fill>
         <IoIosContact></IoIosContact>
         <FaInstagram></FaInstagram>

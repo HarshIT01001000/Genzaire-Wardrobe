@@ -21,7 +21,7 @@ function FeaturedCollectionCard({ Item1, Item3, Item4 }) {
         <img
           src={isHovered ? Item3 : Item4}
           alt="example"
-          className="transition-transform duration-500 h-[16rem]"
+          className="transition-transform duration-500 h-[18rem] w-[14rem]"
         />
       </figure>
       <div className="card-body">
