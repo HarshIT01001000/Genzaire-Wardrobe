@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom"
-import Nav from "./Components/homePages/Nav"
 import Footer from "./Components/homePages/Footer"
 import OfferBar from "./Components/homePages/OfferBar"
+import Nav from "./Components/homePages/Nav"
 
 function Layout(){
     return(
@@ -9,9 +9,7 @@ function Layout(){
         <>
         <OfferBar></OfferBar>
         <Nav></Nav>
-        <Outlet>
-
-        </Outlet>
+        <Outlet></Outlet>
         <Footer></Footer>
         </>
     )

@@ -6,8 +6,10 @@ function SaleCollection() {
   
     return (
       <>
-    <div className=" text-center text-2xl font-semibold lg:text-3xl  mt-[rem] mb-[3rem]">SALE</div>
-    <div className="flex justify-center items-center rounded-sm">
+    <div className=" text-center text-2xl font-semibold lg:text-3xl mt-[-6rem]  md:mt-[-3rem] mb-[3rem]">SALE</div>
+
+    {/* collection start here */}
+       <div className="flex justify-center items-center rounded-sm">
           <div className="carousel space-x-2 md:space-x-12">
             <div className="carousel-item">
               <FeaturedCollectionCard Item1={"Tshirt4"} Item4={"https://itsinji.com/cdn/shop/files/22BAC874-7BD8-414B-B13E-CC6CE66A951E_540x.jpg?v=1722584447"}

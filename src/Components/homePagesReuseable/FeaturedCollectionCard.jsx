@@ -13,7 +13,7 @@ function FeaturedCollectionCard({ Item1, Item3, Item4 }) {
 
   return (
     <div 
-      className="card bg-base-100 w-96 shadow-xl transition-transform duration-300 hover:scale-110"
+      className="card bg-base-100 w-96 shadow-xl transition-transform duration-300"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
