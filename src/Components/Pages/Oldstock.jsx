@@ -4,7 +4,7 @@ function Oldstock(){
     return(
 
         <>
-      <div className="min-h-screen w-full">
+      <div className="min-h-screen w-full mb-[-12rem] mt-[3rem]">
 
 <div className="text-center text-2xl font-semibold lg:text-3xl mt-[3rem] mb-[3rem]">
   Old Collection

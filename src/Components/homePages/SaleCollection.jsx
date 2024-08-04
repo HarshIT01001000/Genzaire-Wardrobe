@@ -6,7 +6,7 @@ function SaleCollection() {
   
     return (
       <>
-    <div className=" text-center text-2xl font-semibold lg:text-3xl mt-[-6rem]  md:mt-[-3rem] mb-[3rem]">SALE</div>
+    <div className=" text-center text-2xl font-semibold lg:text-3xl mt-[-6rem]  md:mt-[-3rem] mb-[5rem]">SALE</div>
 
     {/* collection start here */}
        <div className="flex justify-center items-center rounded-sm">
@@ -27,7 +27,7 @@ function SaleCollection() {
         </div>
 
         {/* button */}
-       <div className="flex justify-center items-center mt-[3rem]"> 
+       <div className="flex justify-center items-center mb-[3rem]"> 
         <button className="btn bg-white">Shop Now</button>
        </div>
       </>
