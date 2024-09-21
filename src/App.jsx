@@ -8,6 +8,7 @@ import Hero from './Components/homePages/Hero'
 import FeaturedCollection from './Components/homePages/FeaturedCollection'
 import SaleCollection from './Components/homePages/SaleCollection'
 import Footer from './Components/homePages/Footer'
+import PageBuyCart from './Components/PagesReusable/PageBuyCart'
 
 
 function App() {
@@ -19,7 +20,6 @@ function App() {
     <Hero></Hero>
     <FeaturedCollection></FeaturedCollection>
     <SaleCollection></SaleCollection>
-  
     </>
   )
 }

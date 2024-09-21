@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function FeaturedCollectionCard({ Item1, Item3, Item4 }) {
+function FeaturedCollectionCard({ Item1, Item3, Item4,item5 }) {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleMouseEnter = () => {
@@ -28,7 +28,7 @@ function FeaturedCollectionCard({ Item1, Item3, Item4 }) {
         <h2 className="card-title">{Item1}</h2>
         <p>T-shirt that tells us story</p>
         <div className="card-actions justify-end">
-          <button className="btn bg-slate-400">Buy Now</button>
+          {item5}
         </div>
       </div>
     </div>
