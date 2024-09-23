@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function PageBuyCart() {
   const location = useLocation();
@@ -20,12 +21,13 @@ function PageBuyCart() {
   return (
     <div className="hero bg-base-200 min-h-screen">
       <div className="hero-content flex-col lg:flex-row">
-        <img src={item3} className="max-w-sm rounded-lg shadow-2xl h-[20rem]" alt="Product" />
-        <div className="flex flex-col space-y-5 ml-2">
-          <h1 className="text-5xl font-semibold">{item1}</h1>
+        <img src={item3} className="max-w-sm rounded-lg shadow-2xl h-[27rem]" alt="Product" />
+        <div className="flex flex-col space-y-6 ml-2">
+          <h1 className="text-3xl font-semibold">{item1}</h1>
           <h3 className="text-3xl">{item2}</h3>
 
           {/* Size buttons */}
+          <div className=" space-y-1">
           <div className="space-x-3">
             <input type="radio" name="radio-2" className="radio radio-primary" defaultChecked />
             <input type="radio" name="radio-2" className="radio radio-primary" />
@@ -39,6 +41,7 @@ function PageBuyCart() {
             <p>M</p>
             <p>L</p>
             <p>XL</p>
+          </div>
           </div>
 
           {/* Add To Cart */}
@@ -54,10 +57,10 @@ function PageBuyCart() {
                 <div className="text-4xl">+</div>
               </button>
             </div>
-            <button className="btn bg-slate-500 ">Add To Cart</button>
+            <button className="btn bg-gray-400 ">Add To Cart</button>
           </div>
 
-          <button className="btn btn-primary ">Buy Now</button>
+          <Link to={"/Form"}><button className="btn btn-primary ">Buy Now</button></Link>
         </div>
       </div>
     </div>
